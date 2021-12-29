@@ -1,0 +1,417 @@
+body {
+    font-family: 'Do Hyeon', sans-serif;
+    /* font-family: 'Jua', sans-serif; */
+}
+
+/* first */
+.first {
+    /* width: 100%; */
+    width: 1920px;
+    height: 900px;
+    background-color: #F4E7D3;
+    position: relative;
+}
+
+/* 상단 메뉴 부분 */
+.frontLogo {
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    top: 0;
+    left: 320px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    color: black;
+    font-family: Spoqa Han Sans Neo;
+}
+.navPage {
+    text-decoration: none;
+    color: black;
+}
+
+.nav_home {
+    position: absolute;
+    width: 46px;
+    height: 20px;
+    top: 41px;
+    left: 1206px;
+}
+.nav_home:hover {
+    cursor: pointer;
+    color: #D97652;
+}
+
+.nav_about {
+    position: absolute;
+    width: 46px;
+    height: 20px;
+    top: 41px;
+    left: 1282px;
+    margin-right: 30px;
+}
+.nav_about:hover {
+    cursor: pointer;
+    color: #D97652;
+}
+
+.nav_github {
+    position: absolute;
+    width: 46px;
+    height: 20px;
+    top: 41px;
+    left: 1358px;
+}
+.nav_github:hover {
+    cursor: pointer;
+    color: #D97652;
+}
+/* contact 버튼 */
+.nav_pick {
+    position: absolute;
+    top: 26px;
+    right: 320px;
+    bor: #263140;
+    cursor: pointer;
+}
+.nav_pick::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    transition: all .3s;
+}
+.nav_pick:hover::before {
+    content: 'Thank you !!';
+    color: white;
+    background-color: #263140;
+    border-radius: 40px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 50px;
+}
+
+/* 버튼 */
+button {
+    text-decoration: none;
+    border-radius: 40px;
+    width: 140px;
+    height: 50px;
+    background-color: #D97652;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+/* first 내용 부분 */
+.title {
+    position: absolute;
+    top: 302px;
+    left: 320px;
+    color: black;
+    width: 737px;
+    height: 120px;
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 60px;
+}
+.first_p {
+    position: relative;
+    top: 462px;
+    left: 320px;
+    color: black;
+    width: 550px;
+    height: 86px;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+    font-size: 16px;
+    line-height: 30px;
+}
+
+/* 블로그 보기 버튼 */
+.readMore {
+    margin-top: 40px;
+}
+.velogPage {
+    text-decoration: none;
+    color: white;
+}
+
+/* 이미지 삽입 */
+.title_img {
+    position: absolute;
+    top: 134px;
+    right: 320px;
+    width: 550px;
+    height: 567px;
+}
+
+/* --------------------------------------- */
+
+/* main */
+
+/* 팀프로젝트 */
+.img_team {
+    position: absolute;
+    top: 1060px;
+    left: 320px;
+    width: 660px;
+    height: 390px;
+    border-radius: 30px;
+    filter: drop-shadow(10px 10px 30px rgba(0, 0, 0, 0.25))
+}
+
+.main_art1 > .main_sentence {
+    position: absolute;
+    top: 1132px;
+    left: 1090px;
+    width: 510px;
+    height: 135px;
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 45px;
+}
+
+.main_p {
+    position: absolute;
+    top: 1257px;
+    left: 1090px;
+    width: 520px;
+    height: 40px;
+    color: black;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.main_art2 > .main_ColorSentence {
+    position: absolute;
+    top: 1570px;
+    left: 496px;
+    color: #D97652;
+    width: 929px;
+    height: 60px;
+    text-align: center;
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 60px;
+}
+
+.main_art2 > p {
+    position: absolute;
+    top: 1670px;
+    left: 591px;
+    color: black;
+    width: 739px;
+    height: 42px;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+    font-size: 16px;
+    line-height: 30px;
+}
+
+span.ingredient {
+    color: #D97652;
+}
+
+/* 개인프로젝트 */
+.mainImg {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.mainImg .personaProject1 {
+    position: absolute;
+    top: 1800px;
+    left: 320px;
+    width: 378px;
+    height: 378px;
+    border-radius: 30px;
+    filter: drop-shadow(10px 10px 30px rgba(0, 0, 0, 0.25));
+}
+.mainImg > .personaProject2 {
+    position: absolute;
+    top: 1800px;
+    left: 770px;
+    width: 378px;
+    height: 378px;
+    border-radius: 30px;
+    filter: drop-shadow(10px 10px 30px rgba(0, 0, 0, 0.25));
+}
+.mainImg > .personaProject3 {
+    position: absolute;
+    top: 1800px;
+    left: 1220px;
+    width: 378px;
+    height: 378px;
+    border-radius: 30px;
+    filter: drop-shadow(10px 10px 30px rgba(0, 0, 0, 0.25));
+}
+.mainArt3 > .personalInstruction {
+    position: absolute;
+    top: 2268px;
+    left: 491px;
+    color: black;
+    width: 739px;
+    height: 64px;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.learnMore {
+    position: absolute;
+    top: 2275px;
+    left: 1282px;
+    width: 147px;
+}
+
+.skills {
+    display: inline-block;
+    color: #D97652;
+    font-weight: 500;
+}
+
+/* 더 알아보기 버튼 */
+.readMore {
+    margin-top: 40px;
+}
+.projectPage {
+    text-decoration: none;
+    color: white;
+}
+
+/* --------------------------------------- */
+
+/* last */
+
+/* box */
+.lastBox {
+    position: absolute;
+    top: 2422px;
+    left: 320px;
+    width: 1280px;
+    height: 200px;
+    background-color: #263140;
+    color: white;
+    border-radius: 30px;
+}
+
+.lastBox > h3 {
+    margin: 50px 0 0 58px;
+    font-family: Spoqa Han Sans Neo;
+    font-weight: bold;
+    line-height: 45px;
+    align-items: center;
+    font-size: 36px;
+}
+
+.lastBox > p {
+    margin: 18px 0 0 58px;
+    color: white;
+    font-family: Spoqa Han Sans Neo;
+    line-height: 25px;
+    align-items: center;
+    font-size: 14px;
+}
+/* 이메일 주소 입력란 */
+.boxInput {
+    position: absolute;
+    width: 530px;
+    height: 60px;
+    left: 692px;
+    top: 70px;
+    background: #FFFFFF;
+    border-radius: 60px;
+}
+.boxInput > .email {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+
+}
+.boxInput > input {
+    border: none;
+    outline: none;
+    position: absolute;
+    width: 300px;
+    height: 20px;
+    top: 20px;
+    left: 68px;
+    color: black;
+    font-weight: 500;
+}
+
+.boxInput > button {
+    position: absolute;
+    cursor: pointer;
+    width: 136px;
+    height: 50px;
+    top: 5px;
+    right: 5px;
+}
+
+/* --------------------------------------- */
+
+/* 하단 배경 */
+.background {
+    position: absolute;
+    width: 1920px;
+    height: 340px;
+    left: 0px;
+    top: 2528px;
+    z-index: -1;
+    border: none;
+    background: linear-gradient(0deg, rgba(242, 233, 216, 0.6), rgba(242, 233, 216, 0.6)), url(../logo/back2.jpg)
+}
+
+/* 맨아래 */
+.share {
+    position: relative;
+    width: 1920px;
+    height: 160px;
+    background-color: white;
+    top: 1968px;
+    left: 0;
+}
+.lastLogo {
+    position: absolute;
+    top: 45px;
+    left: 320px;
+    width: 280px;
+    height: 60px;
+}
+.insta {
+    cursor: pointer;
+    position: absolute;
+    top: 58px;
+    left: 1372px;
+}
+.facebook {
+    cursor: pointer;
+    position: absolute;
+    top: 58px;
+    left: 1434px;
+}
+.youtube {
+    cursor: pointer;
+    position: absolute;
+    top: 58px;
+    left: 1496px;
+}
+.twitter {
+    cursor: pointer;
+    position: absolute;
+    top: 58px;
+    left: 1558px;
+}
+/* .scroll-container {
+    scroll-behavior: smooth;
+} */
