@@ -1,5 +1,6 @@
 # landingPage
 - 자기소개를 기반으로 한 landing page
+- https://jiyeong0909.github.io/FEjiyeong/
 
 - HTML, CSS 구현 완료 
 - modal 작업 중
